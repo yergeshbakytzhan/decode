@@ -1,0 +1,44 @@
+.rating{
+    width: 100%;
+    background-image: url('../../images/banner-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    padding: 100px 0;
+}
+.rating::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #03030c;
+    opacity: .8;
+}
+.rating-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rating-items{
+    width: 23%;
+    text-align: center;
+}
+.rating-items h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.rating-items h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}

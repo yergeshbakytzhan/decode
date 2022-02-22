@@ -1,0 +1,125 @@
+.contact{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+}
+.contact-inner{
+    width: 100%;
+}
+.contact-inner h3{
+    color: #13c3c9;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact-inner h1{
+    color: #333;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-input{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contact-input input{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-left: 3px solid #13c3c9;
+    background-color: #f5f5fa;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #505050;
+}
+.contact-input input::placeholder{
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-input textarea{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-left: 3px solid #13c3c9;
+    background-color: #f5f5fa;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #505050;
+    max-height: 120px;
+    max-width: 100%;
+}
+.contact-input textarea::placeholder{
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-input a{
+    display: inline-block;
+    background: transparent;
+    color: #13c3c9;
+    text-decoration: none;
+    border: 2px solid #13c3c9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.contact-info{
+    width: 38%;
+    margin-top: 30px;
+}
+.contact-info ul li h6{
+    margin-bottom: 3px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.contact-info ul li p{
+    color: #4b5669;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.contact-info ul li a{
+    color: #4b5669;
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.contact-info ul li{
+    margin-bottom: 15px;
+}

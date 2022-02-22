@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+}

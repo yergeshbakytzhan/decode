@@ -1,0 +1,56 @@
+.agency{
+    width: 100%;
+    padding: 100px 0;
+    background-image: url('../../images/banner-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.agency::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03030c;
+    z-index: -1;
+    opacity: 0.7;
+}
+.agency-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.agency-member h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.agency-member h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #13c3c9;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.agency-member a{
+    display: inline-block;
+    margin-top: 25px;
+    background: transparent;
+    color: #13c3c9;
+    text-decoration: none;
+    border: 2px solid #13c3c9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

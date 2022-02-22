@@ -1,0 +1,80 @@
+.pricing{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f8f8f9;
+}
+.pricing-inner{
+    width: 100%;
+    text-align: center;
+}
+.pricing-inner h3{
+    color: #13c3c9;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.pricing-inner h1{
+    color: #333;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.pricing-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pricing-member{
+    width: 28%;
+    padding: 40px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-top: 3px solid #13c3c9;
+    box-shadow: 0px 5px 30px 0px rgba(148, 146, 245, 0.15);
+    margin-top: 30px;
+}
+.pricing-member h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+.pricing-member h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #13c3c9;
+    margin-bottom: 20px;
+}
+.pricing-member h2 span{
+    font-size: 14px;
+    color: #9699A8;
+}
+.pricing-member ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E7898;
+    line-height: 20px;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+.pricing-member a{
+    display: inline-block;
+    margin-top: 25px;
+    background: transparent;
+    color: #13c3c9;
+    text-decoration: none;
+    border: 2px solid #13c3c9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.pricing-member:nth-child(2){
+    transform: scale(1.1);
+}

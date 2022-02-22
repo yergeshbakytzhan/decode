@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 3</title>
+    <style>
+        /* .line{
+            background-color: red;
+            display: block;
+        }
+        .block{
+            background-color: green;
+            display: block;
+        }
+        .none{
+            background-color: blue;
+            display: block;
+        }
+        .flex{
+            height: 500px;
+            display: flex;
+        } */
+        .team{
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .team-member{
+            width: 27%;
+            background-color: grey;
+            padding: 20px 30px;
+            text-align: center;
+            border-radius: 10px;
+            border: none;
+        }
+        .team-member img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="flex">
+        <a href="" class="line" style="align-self: flex-end;">untitled</a>
+        <a href=""  class="block">untitled</a>
+        <a href=""  class="none">untitled</a>
+    </div> -->
+    <div class="team">
+        <div class="team-member">
+            <img src="образ.jpg" alt="member">
+            <h3>Bakytzhan</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, consequatur!</p>
+        </div>
+        <div class="team-member">
+            <img src="образ.jpg" alt="member">
+            <h3>Bakytzhan</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, consequatur!</p>
+        </div>
+        <div class="team-member">
+            <img src="образ.jpg" alt="member">
+            <h3>Bakytzhan</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, consequatur!</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("p").fadeToggle()
+    })
+    $("#slide").click(function(){
+        $(".block").slideToggle(3000,"swing")
+    })
+    $("#animate").click(function(){
+        $(".block").animate({"left":"500px"})
+    })
+    $("#innertext").click(function(){
+        alert("Text: text()"+$(".text").text())
+    })
+    $("#innerhtml").click(function(){
+        alert("Text: text()"+$(".text").html())
+    })
+    $("#append").click(function(){
+        $("#text").append("<b>Bakytzhan</b>")
+    })
+    $("#prepend").click(function(){
+        $("#text").prepend("<b>Bakytzhan</b>")
+    })
+    $("#clear").click(function(){
+        $(".block").empty()
+    })
+    $("#style").click(function(){
+        $("p").css({
+            "color":"blue",
+            "font-size":"20px",
+            "font-weight":"700"
+        })
+    })
+})

@@ -1,0 +1,76 @@
+.template{
+    width: 100%;
+    background-image: url('../../images/home-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 300px 0 150px;
+}
+.template::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #03030c !important;
+    z-index: -1;
+    opacity: .7;
+}
+.template-inner{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template-info{
+    width: 70%;
+}
+.template-info h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.template-info p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.template-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.template-links a:first-child{
+    background: #fff;
+    color: #13c3c9;
+    margin-right: 15px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.template-links a:last-child{
+    background: transparent;
+    color: #13c3c9;
+    text-decoration: none;
+    border: 2px solid #13c3c9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

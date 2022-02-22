@@ -1,0 +1,125 @@
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header-links ul{
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        top: 78px;
+        left: 0;
+        z-index: 1 !important;
+        transform: translateY(-120%);
+        transition: transform 0.5s ease-in;
+    }
+    .header-links ul li{
+        margin: 10px 0;
+    }
+    .header-icon{
+        display: block !important;
+        cursor: pointer;
+    }
+    .feature-member{
+        width: 40% !important;
+    }
+    .about-info{
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
+    .about-img{
+        width: 100% !important;
+    }
+    .rating-items{
+        width: 40% !important;
+        margin-bottom: 30px;
+    }
+    .development-info{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .development-img{
+        width: 100% !important;
+    }
+    .services-member{
+        width: 40% !important;
+    }
+    .team-members{
+        width: 40% !important;
+    }
+    .blog-member{
+        width: 45% !important;
+    }
+    .footer-social{
+        width: 40% !important;
+        margin-bottom: 50px;
+    }
+    .footer-link{
+        width: 40% !important;
+        margin-bottom: 50px;
+    }
+    .footer-help{
+        width: 40% !important;
+    }
+    .footer-email{
+        width: 40% !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .info-details{
+        width: 100% !important;
+    }
+    .feature-member{
+        width: 100% !important;
+    }
+    .about-info{
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
+    .about-img{
+        width: 100% !important;
+    }
+    .rating-items{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .development-info{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .development-img{
+        width: 100% !important;
+    }
+    .services-member{
+        width: 100% !important;
+    }
+    .team-members{
+        width: 100% !important;
+    }
+    .blog-member{
+        width: 100% !important;
+    }
+    .footer-social{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .footer-link{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .footer-help{
+        width: 100% !important;
+    }
+    .footer-email{
+        width: 100% !important;
+    }
+}

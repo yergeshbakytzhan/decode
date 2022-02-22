@@ -1,0 +1,105 @@
+.team{
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 0;
+}
+.team-inner{
+    width: 100%;
+    text-align: center;
+}
+.team-inner h3{
+    color: #13c3c9;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.team-inner h1{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 38px;
+    line-height: 1.3;
+    color: #333;
+}
+.team-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team-members{
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 30px 0px rgba(148,146,245, 0.15);
+    margin-top: 30px;
+}
+.team-members:hover img{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.team-members-img{
+    width: 100%;
+    overflow: hidden;
+}
+.team-members img{
+    width: 100%;
+    transition: .5s;
+}
+.team-members h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.team-members h4{
+    margin-top: 10px;
+    color: #13c3c9;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.team-members ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.team-members ul li{
+    margin: 0 5px;
+}
+.team-members ul li a{
+    padding: 10px 13px;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: .3s;
+}
+.team-facebook{
+    border: 1px dashed #3b5998;
+    color:#3b5998 ;
+}
+.team-twitter{
+    border: 1px dashed #00acee;
+    color: #00acee;
+}
+.team-linkedin{
+    border: 1px dashed #0e76a8;
+    color: #0e76a8;
+}
+.team-facebook:hover{
+    background-color: #3b5998;
+    color: #fff;
+    transition: .3s;
+}
+.team-twitter:hover{
+    background-color: #00acee;
+    color: #fff;
+    transition: .3s;
+}
+.team-linkedin:hover{
+    background-color: #0e76a8;
+    color: #fff;
+    transition: .3s;
+}

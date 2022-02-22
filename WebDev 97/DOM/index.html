@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/35e3e8b187.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        button{
+            width: 90%;
+            margin: 0 auto;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            text-align: left;
+            position: relative;
+            font-size: 30px;
+        }
+        #button span{
+            position: absolute;
+            right: 20px;
+        }
+        .block{
+            width: 90%;
+            max-height: 0;
+            background-color: pink;
+            display: none;
+            transition: max-height .3s;
+        }
+        .active{
+            display: block !important;
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Click<span><i class="fas fa-chevron-down"></i></span></button>
+    <div class="block">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quam optio earum? Voluptate, quia recusandae. Molestias, blanditiis debitis ad eum maiores corporis voluptate natus nulla reprehenderit similique autem tenetur ab amet rerum sint minus veritatis iste praesentium deleniti. Maxime cupiditate asperiores numquam amet pariatur quos explicabo enim ipsa minus consequatur?</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

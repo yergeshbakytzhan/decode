@@ -1,0 +1,131 @@
+.footer{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #202338;
+}
+.footer-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-info{
+    width: 25%;
+}
+.footer-info p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.footer-info-links{
+    margin-top: 20px;
+}
+.footer-info-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #171a2d;
+    border-radius: 40px;
+    margin-right: 10px;
+    color: #fff;
+    transition: .5s;
+}
+.footer-info-links a:hover{
+    background-color: #fff;
+    color: #13c3c9;
+}
+.footer-links{
+    width: 20%;
+}
+.footer-links h5{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.footer-links ul li a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    color: #dadada;
+    font-weight: 600;
+    padding: 5px 0;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer-links ul li a:hover{
+    color: #13c3c9;
+}
+.footer-help{
+    width: 20%;
+}
+.footer-help h5{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.footer-help ul li a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    color: #dadada;
+    font-weight: 600;
+    padding: 5px 0;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer-help ul li a:hover{
+    color: #13c3c9;
+}
+.footer-news{
+    width: 25%;
+}
+.footer-news h5{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.footer-news input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 25px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #151725;
+}
+.footer-news input::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+    color: #dadada;
+}
+.footer-news button{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    background-color: #13c3c9;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

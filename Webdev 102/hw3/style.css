@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.graph{
+    width: 100%;
+    height: 100vh;
+    border-left: 10px solid gray;
+    border-bottom: 10px solid gray;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.graph-item-1{
+    width: 10%;
+    height: 15%;
+    border-radius: 20px;
+    background-color: red;
+}
+.graph-item-2{
+    width: 10%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.graph-item-3{
+    width: 10%;
+    height: 45%;
+    border-radius: 20px;
+    background-color: blue;
+}
+.graph-item-4{
+    width: 10%;
+    height: 65%;
+    border-radius: 20px;
+    background-color: green;
+}
+.graph-item-5{
+    width: 10%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: purple;
+}
+.graph-item-6{
+    width: 10%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: orange;
+}

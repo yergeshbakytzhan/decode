@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+.tab-navs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-navs button{
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #13c3c9;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: .5s;
+}
+.tab-navs button:hover{
+    background-color: #13c3c9;
+    color: #fff;
+    box-shadow: 0 0 10px #13c3c9, 0 0 30px #13c3c9, 0 0 80px #13c3c9;
+}
+.tab-content{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tab-item{
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    padding: 50px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #13c3c9;
+    transition: .5s;
+    opacity: 0;
+    text-align: center;
+    animation-name: changeElement;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+}
+.tab-item h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+@keyframes changeElement{
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,70 @@
+.design{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+}
+.design-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.design-info{
+    width: 45%;
+}
+.design-info p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.design-info--lines{
+    margin-top: 30px;
+}
+.design-info--line{
+    width: 100%;
+}
+.design-info--text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design-info--text h6{
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.design-info--block{
+    width: 100%;
+    background-color: #f1f1fa;
+    height: 5px;
+    margin-bottom: 20px;
+}
+.design-info--block span{
+    display: block;
+    height: 100%;
+    background-color: #13c3c9;
+}
+.design-info--line:nth-child(1) .design-info--block span{
+    width: 90%;
+}
+.design-info--line:nth-child(2) .design-info--block span{
+    width: 75%;
+}
+.design-info--line:nth-child(3) .design-info--block span{
+    width: 80%;
+}
+.design-img{
+    width: 45%;
+}
+.design-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

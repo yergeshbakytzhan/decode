@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 200px 10%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block{
+    width: 30%;
+    height: 400px;
+    transition: .5s;
+    margin-top: 30px;
+    animation-name: fadeOut;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: scale(0);
+}
+@keyframes fadeOut {
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.block:nth-child(1){
+    background-color: antiquewhite;
+}
+.block:nth-child(2){
+    background-color: greenyellow;
+}
+.block:nth-child(3){
+    background-color: blueviolet;
+}
+.block:nth-child(4){
+    background-color: rebeccapurple;
+}
+.block:nth-child(5){
+    background-color: red;
+}
+.block:nth-child(6){
+    background-color: green;
+}
+.block:nth-child(1):hover{
+    transform: rotate(180deg);
+}
+.block:nth-child(2):hover{
+    transform: scale(1.5,1);
+}
+.block:nth-child(3):hover{
+    transform: translateX(100px);
+}
+.block:nth-child(4):hover{
+    transform: skewY(20deg);
+}
+.block:nth-child(5):hover{
+    transform: rotate(180deg) scale(1.3);
+}
+.block:nth-child(6):hover{
+    transform: skew(20deg,-20deg) translate(20px,20px);
+}
+.container2{
+    padding: 200px 10%;
+    background-color: antiquewhite;
+    position: relative;
+    height: 100vh;
+}
+.block1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    animation-name: changeBlock;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeBlock {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}

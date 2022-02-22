@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-color: red;
+    text-align: center;
+    position: relative;
+}
+.main.home{
+    background-color: yellow;
+}
+.scroll{
+    position: absolute;
+    bottom: 100px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 600;
+}

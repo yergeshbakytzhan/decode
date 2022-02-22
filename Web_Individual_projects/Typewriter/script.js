@@ -1,0 +1,35 @@
+let typeout = document.getElementById('typeout')
+const outputWords = [
+    'Bakytzhan',
+    'Ali',
+    'Diana',
+    'Muhtar',
+    'Sultan'
+]
+
+let wordIndex = 0
+let charIndex = 0
+printWord()
+
+function printWord(){
+    if(outputWords[wordIndex].length>charIndex){
+        typeout.innerHTML += outputWords[wordIndex].charAt(charIndex)
+        charIndex+=1
+        setTimeout(printWord, 150)
+    }else{
+        setTimeout(deleteWord, 50)
+    }
+}
+function deleteWord(){
+    if(charIndex>=0){
+        typeout.innerHTML = outputWords[wordIndex].substr(0, charIndex)
+        charIndex-=1
+        setTimeout(deleteWord,50)
+    }else{
+        wordIndex+=1
+        if(wordIndex>=outputWords.length){
+            wordIndex=0
+        }
+        setTimeout(printWord,150)
+    }
+}
